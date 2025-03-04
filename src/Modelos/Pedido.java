@@ -63,12 +63,17 @@ public class Pedido {
         System.out.println("O PEDIDO JA FOI FINALIZADO E NOTIFICAÇÃO ENVIADA...");
     }
 
+    // GET E SET
     public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Object getStatus() {
+        return status;
     }
 }
 

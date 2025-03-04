@@ -13,8 +13,9 @@ public class PedidoRepositorio {
         pedidos.put(pedido.getId(), pedido);
     }
 
-    public void buscarPedido(String id) {
+    public Pedido buscarPedido(String id) {
         Pedido pedido = pedidos.get(id);
+        return pedido;
     }
      public void atualizarPedido(Pedido pedido) {
         pedidos.put(pedido.getId(), pedido);
