@@ -62,5 +62,13 @@ public class Pedido {
         status = "FINALIZADO";
         System.out.println("O PEDIDO JA FOI FINALIZADO E NOTIFICAÇÃO ENVIADA...");
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }
 
